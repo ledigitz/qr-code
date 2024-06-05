@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', sans-serif;
+}
+.container{
+    background-color: rgb(22, 19, 19);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container .qr_modal{
+    margin: auto;
+    display: block;
+    background-color:rgb(247, 221, 188);
+    /* background-color:rgb(235, 202, 160); */
+    width:450px;
+    padding: 35px;
+    margin-top: 20px;
+    border-radius: 20px !important;
+
+
+}
+.container .qr_modal .img1{
+border-radius: 10px 10px 10px 10px;
+    
+    
+    /* width: 100%; */
+    padding-bottom: 25px;
+    
+}
+.container .qr_modal .img1 img{
+    
+    /* width: 100%; */
+    padding-bottom: 10px;
+    vertical-align: middle;
+    border-radius: 7% !important;
+}
+
+.container .qr_modal .main_txt{
+    color: black;
+    font-size: 27px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 30px;
+
+}
+
+.container .qr_modal .sub_txt{
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 30px;   
+
+}
